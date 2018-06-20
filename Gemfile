@@ -14,7 +14,7 @@ gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
-gem 'duktape'
+#gem 'duktape'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
@@ -40,6 +40,13 @@ gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 gem 'simple_form', '~> 4.0', '>= 4.0.1'
 gem 'toastr-rails', '~> 1.0', '>= 1.0.3'
 gem 'devise', '~> 4.2'
+gem 'font-awesome-rails', '~> 4.6', '>= 4.6.3.1'
+
+# bootstrap
+gem 'sprockets-rails', :require => 'sprockets/railtie'
+gem 'autoprefixer-rails'
+gem 'popper_js', '~> 1.12.9'
+gem 'bootstrap', '~> 4.1.1'
 #gem 'rails-i18n'
 
 group :development, :test do
