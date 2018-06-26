@@ -10,7 +10,7 @@ class WelcomeController < ApplicationController
   
   def avatar_show
     default_avatar = File.open(Rails.root + "app/assets/images/monte.png", "rb").read
-    send_data(if !current_user.avatar then current_user.avatar else default_avatar end, :filename => 'avatar', :type => 'image/jpg', :disposition => 'inline')
+    send_data(if current_user.avatar then current_user.avatar else default_avatar end, :filename => 'avatar', :type => 'image/jpg', :disposition => 'inline')
   end
   
 end
