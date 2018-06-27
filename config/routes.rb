@@ -8,6 +8,29 @@ Rails.application.routes.draw do
         passwords: 'users/passwords',
         registrations: 'users/registrations'
     }
-    resources :users, :controller => "users"
+  get 'users/index'
+  post 'users/index'
+  get 'users/giveuserrole'
+  post 'users/giveuserrole'
+  get 'users/givesupervisorrole'
+  post 'users/givesupervisorrole'
+  get 'users/givenemorole'
+  post 'users/givenemorole'
+  get 'users/dropallroles'
+  post 'users/dropallroles'
+  get 'users/dropuser'
+  post 'users/dropuser'
+  get 'users/givesuperadminrole'
+  post 'users/givesuperadminrole'
+  get 'users/edit'
+  post 'users/edit'
+  get 'users/update'
+  post 'users/update'
+  get 'users/new'
+  post 'users/new'
+  get 'users/create'
+  post 'users/create'
+  put 'users/create'  
+  resources :users, :controller => "users"
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

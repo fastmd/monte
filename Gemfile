@@ -43,7 +43,7 @@ gem 'simple_form', '~> 4.0', '>= 4.0.1'
 gem 'toastr-rails', '~> 1.0', '>= 1.0.3'
 gem 'devise', '~> 4.2'
 gem 'cancancan', '~> 2.2'
-gem 'font-awesome-rails', '~> 4.6', '>= 4.6.3.1'
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.4'
 
 # bootstrap
 gem 'sprockets-rails', :require => 'sprockets/railtie'

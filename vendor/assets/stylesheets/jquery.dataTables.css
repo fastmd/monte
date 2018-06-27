@@ -42,7 +42,7 @@ table.dataTable thead .sorting_desc_disabled {
   background-repeat: no-repeat;
   background-position: center right;
 }
-/*
+/* in favor of bootstrap css
 table.dataTable thead .sorting {
   background-image: url("../images/sort_both.png");
 }

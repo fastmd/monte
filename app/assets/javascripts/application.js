@@ -16,10 +16,15 @@
 //= require jquery_ujs
 //= require activestorage
 //= require jquery.dataTables.min
-//= require dataTables.bootstrap.min
+//= require dataTables.bootstrap4.min
 //= require dataTables.responsive.min
-//= require responsive.bootstrap.min
+//= require responsive.bootstrap4.min
 //= require dataTables.fixedHeader.min
+//= require fixedHeader.bootstrap4.min
+//= require dataTables.fixedColumns.min
+//= require fixedColumns.bootstrap4.min
+//= require dataTables.rowGroup.min
+//= require rowGroup.bootstrap4.min
 //= require date-de
 //= require toastr
 //= require_tree .

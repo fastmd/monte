@@ -12,9 +12,11 @@
  *
  */
 @import "bootstrap";
-@import "font-awesome";
-@import "dataTables.bootstrap.min";
-@import "jquery.dataTables";
-@import "responsive.bootstrap.min";
-@import "fixedHeader.bootstrap.min";
+@import "dataTables.bootstrap4.min";
+@import "jquery.dataTables.min";
+@import "responsive.bootstrap4.min";
+@import "fixedHeader.bootstrap4.min";
+@import "fixedColumns.bootstrap4.min";
+@import "rowGroup.bootstrap4.min";
 @import "toastr";
+@import "font-awesome";

@@ -34,8 +34,21 @@ class Ability
       can :manage, :all
     end
     if user.supervisor_role?
-      can :manage, User
+      can :manage, :all
     end
-    
+    if user.user_role?
+      can :read, :all
+      can :autotech, Car
+      cannot :read, User
+      can :manage, Contract
+      cannot :destroy, Contract
+      can :manage, Client
+      cannot :destroy, Client
+      can :manage, Tehservice
+      cannot :destroy, Tehservice      
+    end
+    if !user.user_role? and !user.supervisor_role? and !user.superadmin_role? then
+    end       
+ 
   end
 end
